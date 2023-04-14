@@ -1,4 +1,4 @@
-package com.api.buscacep.model;
+package com.api.buscacep.busca_cep.model;
 
 public class Endereco {
 
