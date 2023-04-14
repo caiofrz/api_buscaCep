@@ -6,6 +6,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class EnderecoStatus {
+    public static final int DEFAULT_ID = 1;
 
     @Id
     private int id;

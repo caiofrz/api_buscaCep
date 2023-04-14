@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.api.buscacep.busca_cep.exception.NoContentException;
+import com.api.buscacep.busca_cep.exception.NotReadyException;
 import com.api.buscacep.busca_cep.model.Endereco;
 import com.api.buscacep.busca_cep.service.CorreiosService;
 
@@ -19,7 +21,7 @@ public class CorreiosController {
     }
 
     @GetMapping(value="/cep/{cep}")
-    public Endereco getEnderecoByCep(@PathVariable String cep) {
+    public Endereco getEnderecoByCep(@PathVariable String cep) throws NotReadyException, NoContentException{
         return this.service.getEnderecoByCep(cep);
     }
 }

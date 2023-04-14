@@ -14,7 +14,7 @@ public class Endereco {
     private String cidade;
     private String estado;
     
-    public Endereco(String cep, String rua, String bairro, String cidade, String estado) {
+    public Endereco(String estado, String cidade, String bairro, String cep, String rua) {
         this.cep = cep;
         this.rua = rua;
         this.bairro = bairro;
