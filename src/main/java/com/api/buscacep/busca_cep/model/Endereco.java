@@ -1,8 +1,14 @@
 package com.api.buscacep.busca_cep.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Endereco {
 
+    @Id
     private String cep;
+
     private String rua;
     private String bairro;
     private String cidade;
