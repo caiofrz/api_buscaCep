@@ -4,9 +4,7 @@
 Projeto de API REST de consulta de cep's brasileiros. Basicamente, a API faz o dowload de um arquivo .csv com todos os cep's do Brasil e salva esses dados no banco.
 ## Stack utilizada
 
-**Back-end:** JAVA 17, Spring Boot, Spring Data e MySQL.
-
-
+**Back-end:** JAVA 17, Spring Boot, Spring Data, Spring Jpa e MySQL.
 
 
 ## Documentação da API
