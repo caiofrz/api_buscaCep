@@ -55,7 +55,7 @@ public class SetupRepository {
                 linhaSplit[1],
                 linhaSplit[2],
                 StringUtils.leftPad(linhaSplit[3], 8, "0"),
-                linhaSplit.length > 3 ? linhaSplit[4]: null
+                linhaSplit.length > 4 ? linhaSplit[4]: null
                 );
 
             listEnderecos.add(endereco);
